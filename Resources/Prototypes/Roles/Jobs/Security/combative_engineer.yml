@@ -1,0 +1,56 @@
+type: job
+  id: combative_engineer
+  name: job-name-combative_engineer
+  description: job-description-combative_engineer
+  playTimeTracker: JobCombativeEngineer
+  whitelistrequired: True
+  requirements:
+  - !type:RoleTimeRequirement
+    role: JobEngineer
+    time: 5h
+  - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 5h
+  - !type:RoleTimeRequirement
+    role: JobAtmosphericTechnician
+    time: 1h
+  startingGear: CombativeEngineerGear
+  icon: "JobIconCombativeEngineer"
+  supervisors: job-supervisors-hos
+  guides: [ Security, Engineering ]
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Engineering
+  - Cryogenics
+  - Atmospherics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+    id: CombativeEngineerGear
+    equipment:
+      eyes: ClothingEyesGlassesSecurity
+      id: CombativeEngineerPDA
+      ears: ClothingHeadsetSecurity
+      belt: ClothingBeltUtilityEngineering
+      pocket1: WeaponPistolMk58
+  storage:
+      back:
+      - Flash
+      - MagiznePistol
+      - RCD
+
+- type: chameleonOutfit
+    id: CombativeEngineerChameleonOutfit
+    job: combative_engineer
+    hasMindShield: true
+    equipment:
+        head: ClothingHeadHatBeretSecurity
+        mask: ClothingMaskGasSecurity
+        neck: Dinkystar
+        gloves: ClothingHandsGlovesColorBlack
+        torso: ClothingTorsoJumpsuitSecurity
+        shoes: ClothingShoesBootsJack
