@@ -1,7 +1,7 @@
 type: job
-  id: combative_engineer
-  name: job-name-combative_engineer
-  description: job-description-combative_engineer
+  id: CombativeEngineer
+  name: job-name-CombativeEngineer
+  description: job-description-CombativeEngineer
   playTimeTracker: JobCombativeEngineer
   whitelistrequired: True
   requirements:
@@ -15,7 +15,8 @@ type: job
     role: JobAtmosphericTechnician
     time: 1h
   startingGear: CombativeEngineerGear
-  icon: "JobIconCombativeEngineer"
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
   supervisors: job-supervisors-hos
   guides: [ Security, Engineering ]
   access:

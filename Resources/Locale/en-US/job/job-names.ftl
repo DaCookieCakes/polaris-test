@@ -49,7 +49,7 @@ job-name-technical-assistant = Technical Assistant
 job-name-tram-driver = Tram Driver
 job-name-visitor = Visitor
 job-name-warden = Warden
-job-name-combativeengineer = Combative Engineer
+job-name-CombativeEngineer = Combative Engineer
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities

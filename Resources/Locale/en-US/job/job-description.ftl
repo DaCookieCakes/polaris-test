@@ -32,7 +32,7 @@ job-description-cadet = Learn the basics of investigating crime and arresting cr
 job-description-detective = Investigate crime scenes using forensic tools to ensure that the guilty party is found.
 job-description-security = Uphold the law, arrest criminals, and ensure that the station does not fall into disarray.
 job-description-warden = Guard the Security department, manage the armory, and ensure that all prisoners are properly charged and serve their sentence without incident.
-job-description-combativeengineer = Uphold the law, arrest criminals, and make emergency repairs to make sure the station stays in one piece in combat zones.
+job-description-CombativeEngineer = Uphold the law, arrest criminals, and make emergency repairs to make sure the station stays in one piece in combat zones.
 # Service
 job-description-bartender = Serve drinks and keep the bar lively.
 job-description-botanist = Grow fresh ingredients, medicinal herbs, and other plant-based supplies for the station.
